@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://www.saucedemo.com"/>
+  <listeners>
+    <listener class-name="rahulsheddyacademy.sausedemo.Listner"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="rahulsheddyacademy.sausedemo.Extendsreports">
+        <methods>
+          <include name="invokebrowser" invocation-numbers="0"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- rahulsheddyacademy.sausedemo.Extendsreports -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
